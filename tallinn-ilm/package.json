@@ -1,0 +1,13 @@
+{
+  "name": "tallinn-ilm",
+  "version": "1.0.0",
+  "description": "Tallinna ilmaennustus Yr.no API-st",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
