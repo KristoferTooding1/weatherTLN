@@ -29,7 +29,7 @@ function printWeather() {
 
   console.log("Aeg ja temperatuur Tallinnas (Lokaalne test):");
   
-  timeseries.forEach(item => {
+  timeseries.slice(0, 8).forEach(item => {
     const time = item.time; 
     const temp = item.data.instant.details.air_temperature; 
     
